@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<!-- Naming the website "Change This" -->
+		<title>Tech Query Consultancy</title>
+
+		<!-- Declaring that Notepad must use the CSS file stored for the design of the website -->
+		<link rel="stylesheet" type="text/css" href="Style2.css">
+		
+	
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>jQuery ImageScroll Plugin Demo</title>
+				<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+				<style type="text/css">
+				#container {
+				  overflow: hidden;
+				  width: 1200px;
+				  height: 400px;
+				  margin: 0 auto;
+				  cursor: pointer;
+				  margin-top:40px;
+				}
+
+				#imgs {
+				  display: block;
+				  padding: 0;
+				  width: 200%;
+				}
+
+				#imgs li {
+				  padding-right: 10px;
+				  display: inline-block;
+				 *display:inline;
+				}
+
+				#imgs img {
+				  width: 160px;
+				  height: 120px;
+				}
+
+				.title {
+				  display: block;
+				  width: 100%;
+				  height: 38px;
+				  line-height: 38px;
+				  color: black;
+				  font-weight: bold;
+				  text-align: center;
+				  background: #D3D3D3;;
+				}
+				</style>
+	</head>
+
+	<body>
+		<!-- Declaring this div element as class "header" -->
+		<div class="header">
+
+		
+		<!-- Setting the font size for our header to the largest font size available -->
+		<h1>T    e    c    h    Q    u    e    r    y     C    o    n    s    u    l     t    a    n    c    y</h1>
+		
+				<br></br>
+		
+		<!-- Using the paragraph block level element to welcome the website users to the front page -->
+		<p>Welcome to TechQuery Consultancy Servies</p>
+		</div>
+
+		<!-- Declaring this div element as class "topnav" -->
+		<div class="topnav">
+		
+		<!-- Providing links to specific webpages on the top navigation tab bar -->
+		<a href="file:///C:/Users/ailis/OneDrive/Documents/College/Semester%202/IS1113/HomePage.html">Home</a> <!-- Link to the Home Page -->
+		<a href="file:///C:/Users/ailis/OneDrive/Documents/College/Semester%202/IS1113/CV.html">Curriculum Vitae</a> <!-- Link to Curriculum Vitae -->
+		<a href="file:///C:/Users/ailis/OneDrive/Documents/College/Semester%202/IS1113/Interests.html">Interests</a> <!-- Link to Interests -->
+		<a href="file:///C:/Users/ailis/OneDrive/Documents/College/Semester%202/IS1113/AboutConsulting.html">About Consulting</a> <!-- Link to About Consulting -->
+		<a href="file:///C:/Users/ailis/OneDrive/Documents/College/Semester%202/IS1113/Ebus1.html">Services</a> <!-- Link to Services -->
+		</div>
+		
+			
+			<div id="container"> <span class="title"><b><font style="font-size:150%;">Interests</b></span></font>
+			  <ul id="imgs">
+				<li><img src="dancing.jpg" alt="" /></li>
+				<li><img src="capetown.jpg" alt="" /></li>
+				<li><img src="football2.jpg" alt="" /></li>
+				<li><img src="dancing2.jpg" alt="" /></li>
+				<li><img src="plane.jpg" alt="" /></li>
+				<li><img src="ladies.jpg" alt="" /></li>
+				<li><img src="dancing3.jpg" alt="" /></li>
+			  </ul>
+			  
+			  <span class="title"></span> </div>
+			<div id="controler"> </div>
+			<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+			<script type="text/javascript" src="ImageScroll.js"></script> 
+			<script type="text/javascript">
+
+			  $('#imgs').imageScroll({
+				orientation:"left",
+				speed:600,
+				interval:1000,
+				hoverPause:true,
+			  });
+
+			  </script><script type="text/javascript">
+
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-36251023-1']);
+			  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+			</script>
+			
+		
+		<!-- Setting the font size for the heading "Column" as h2 -->
+		<center><h2>Sports</h2></center>
+		<!-- Using the paragraph block level element to add text to the website -->
+		<p><b><center><font style="font-size:120%;">
+			Gaelic Football:</b>
+		<br></br>
+			Gaelic football, commonly referred to as football or Gaelic, is an Irish team sport. It is played between two teams of 15 players on a rectangular grass pitch. 
+			The objective of the sport is to score by kicking or punching the ball into the other team's goals, which counts as 3 points, or between two upright posts above 
+			the goals and over a crossbar 2.5 metres above the ground, which counts as 1 point.
+		<br></br>
+			I have great interest in this sport as I have played it since I was 11 years old. It is a great way to keep fit and to make new friends and I would highly
+			recommend it to any person. The sport is also played in other countires where there may be lots of Irish living.
+		<br></br>
+		<img src = "Kerry.jpg" />
+		<br></br>
+		<b>Dancing:</b>
+		<br></br>
+			Dance is a performing art form consisting of purposefully selected sequences of human movement. Some may not consider it a sport but I would as it is 
+			a way to keep fit while also having fun. 
+		<br></br>
+			I have been dancing since I was 3 years old and it has become a big passion of mine. It has become an escape route for me as when I am dancing, I don't think about
+			anything else and any worries I have seem to fade away for a small amount of time. Dancing is very important to me for this reason, but also as my Nan was a dancer 
+			in her time and she loves to live through me and my dancing career now.
+		<br></br>
+		<img src = "dancing.jpg"/>
+		</p>
+
+
+		<h2><center>Travel</center></h2>
+		<!-- Using the paragraph block level element to add text to the website -->
+		<p>	To travel means; to make a journey, typically of some length. Travel is  big interest of mine and has been my whole life. My first time on a plane, not that I
+			remember, was when I was 9 months old and my mom took me to visit my uncle in Boston.
+		<br></br>
+			Every year growing up we would go on family holidays and as my parents love to travel we got to experience and visit very cool places, one being South Africa. I remember
+			this trip so well as it was genuinely one of the most amazing experinces ever. We got the opportunity to so a safari in the South African bush which was crazy. Of course
+			we saw this big 5 along with many other amazing animals.
+		<br></br>
+			I believe travel is good for the soul as you can escape reality for a bit and be in your own space while experiencing different cultures and avenues. One on my goals in
+			life is to travel the world and see as many places as I possibly can. Even though I have been lucky enough to see a lot of it, there's a whole lot more to see.
+			<br></br>
+		<img src = "travel.jpg" alt="Image" height="300" width="600"/> 
+		</font></center> 
+		</p>
+
+	</body>
+	
+</html>
